@@ -8,7 +8,7 @@ class LinkedList:
     def __init__(self, head=None):
         self.head = head
 
-    def mergeTwoLists(self):
+    def remove_duplicate(self):
         current = self.head
         while current and current.next:
             if current.val == current.next.val:

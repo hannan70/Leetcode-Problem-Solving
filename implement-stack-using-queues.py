@@ -1,5 +1,3 @@
-from sqrtx import mySqrt
-
 
 class MyStack():
     def __init__(self):
