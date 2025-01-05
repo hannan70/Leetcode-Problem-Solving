@@ -8,7 +8,7 @@ def addDigits(num):
     if len(str(total)) == 1:
         return total
     else:
-        return self.addDigits(total)
+        return addDigits(total)
 
 
 num = 38
