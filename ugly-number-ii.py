@@ -2,7 +2,6 @@ def nthUglyNumber(n):
 
     ugly_number = [0] * n
     ugly_number[0] = 1
-
     i2 = i3 = i5 = 0
     next2, next3, next5 = 2, 3, 5
 
@@ -19,7 +18,7 @@ def nthUglyNumber(n):
             i5 += 1
             next5 = ugly_number[i5]*5
 
-    return ugly_number[-1]
 
-n = 10
+
+n = 12
 print(nthUglyNumber(n))
